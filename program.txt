@@ -1,0 +1,7 @@
+	mov r1, #0x20
+		mov r4, #0x30
+	addS    r3  ,  r1,r4
+	bNE skip
+	mov r10, #50
+skip
+	END
